@@ -8,7 +8,7 @@ int main(void)
 {
 	int inc;
 	unsigned long n1 = 1, n2 = 2, n3;
-	for (inc =o; inc < 98; inc++)
+	for (inc = 0; inc < 98; inc++)
 	{
 		n3 = n1 + n2;
 		printf("%lu", n3);
