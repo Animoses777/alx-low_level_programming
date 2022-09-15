@@ -1,7 +1,5 @@
-0x03. C - Debugging
+0x03-debugging
 
 By Ani Moses
 
-Ongoing Project started on Sept 12, 2022 and must be submitted sept 15, 10pm
-
-QA Review fully Automated
+Project to be submitted on 15th sept, 2022
