@@ -1,23 +1,3 @@
-main.h.txt
-Who has access
-A
-System properties
-Type
-Text
-Size
-456 bytes
-Storage used
-456 bytes
-Location
-More functions, more nested loops
-Owner
-Antony Bahati
-Modified
-3:49 AM by Antony Bahati
-Created
-3:51 AM
-No description
-Viewers can download
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -41,4 +21,3 @@ int _isdigit(int);
 int mul(int, int);
 
 #endif /* MAIN_H */
-
