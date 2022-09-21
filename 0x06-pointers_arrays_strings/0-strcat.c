@@ -2,24 +2,22 @@
 
 /**
 *_strcat - convatenates the string pointed to by @src
-* the end of the dtring pointed to by @dest
-* @dest: String that will be appended
+*the end of the string pointed to by @dest
+*@dest: String that will be appended
 *@src: String to be concatenated upon
-*
+*@n: integer parameter to compare index to
 * Return: returns pointer to @dest
 */
 
-char *_scrcat(char *dest, char *src)
+char *_scrcat(char *dest, char *src, int n)
 {
-
-int index = 0, dest_len = 0;
-
-while (dest[index++])
-dest_len++;
-
-for (index = 0; src[index]; index++)
-dest[dest_len++] = src[index];
-
-return (dest);
+	int index = 0, dest_len = 0;
+	
+	while (dest[index++])
+		dest_len++;
+		
+	for (index = 0; src[index] && index < n; index++)
+		dest[dest_len++] = src[index];
+		
+	return (dest);
 }
-
