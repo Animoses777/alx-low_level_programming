@@ -1,19 +1,32 @@
-#include "_putchar.h"
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
- * main - function to print
- *
- * Return: 0
- */
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
+*/
 int main(void)
 {
-	char _putchar[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-	unsigned int c;
+int n;
 
-	for (c = 0; c < sizeof(_putchar); c++)
-	{
-		_putchar(_putchar[c]);
-	}
-_putchar('\n');
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+  /* your code goes there */
+if (n > 0)
+{
+	printf("%i is positive\n", n);
+}
+else if (n == 0)
+{
+	printf("%i is zero\n", n);
+}
+else if (n < 0)
+{
+	printf("%i is negative\n", n);
+}
 return (0);
 }
